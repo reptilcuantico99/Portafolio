@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Cabecera-->
+<head>
+    <!--Titulo de la WEB-->
+<title>¡Cv en HTML!</title>
+<link href="styles.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<!--Cuerpo-->
+<body>
+
+  <section class="main">
+
+    
+ <div class="informacion_primaria">
+
+
+
+ <h1 id="nombre"><strong>Nicolás García</strong></h1>
+
+ <hr class="separadores">
+<!--Info personal-->
+<p id="descripcion_principal">Desde los 4 años me encanta todo lo relacionado con la computación
+   hoy en dia me enfoco en el estudio de la creación de paginas web y tengo conocimientos 
+   acerca de base de datos, sistemas operativos(linux,windows,variantes de linux), estuve un año 
+   programando en .NET: para un proyecto de estudio.Antes de .NET programe 1 año en un proyecto JAVA(usaba eclipse) supe que es algo que me 
+   gusta hacer y que me pueden pagar por eso(¡GENIAL!). Soy apasionado por crear diseños que respondan creativamente a
+    lo solicitado. </p>
+
+    <div>
+<hr class="separadores">
+
+
+<!--Imagenes de la web-->
+<div class="galeria_de_fotos">
+
+<img class="imagen" src="img1.jpg">
+<img class="imagen" src="img2.jpg">
+
+<hr>
+</div>
+
+<div class="caja" id="experiencia">
+
+ <h2 id="ep">Experiencía profesional</h2>
+<!--Primer ejemplo de tabla: cada <tr> Actua directamente en la linea horizontal de las filas de arriba hacia 
+  abajo. Los <td> son cada uno de los espacios en horizontal. de izquierda a derecha.-->
+
+
+ 
+    <table>
+  
+  <tbody>
+    <tr>
+      <td><strong>Empresa / Organización</strong></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><strong>Cargo</strong></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><strong>Localización</strong></td>
+    </tr>
+    <tr>
+      <td>Ceramicas Castro</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>Operario </td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>Ruta 8 km 22.500</td>
+    </tr>
+    <tr>
+      <td>Reparador PC</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>Dueño/Reparador</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>Pando,barros blancos, suarez y alrededores.</td>
+    </tr>
+  </tbody>
+</table>
+ 
+
+
+</div>
+
+<div class="caja" id="habilidades_conocimientos">
+
+   <h2 id="hc">Habilidades y conocimientos</h2>
+   <ul>
+    <li><strong>Desarrollo web:</strong> HTML5, CSS3, JavaScript,Python.</li>
+  <li><strong>Emprendimiento: </strong> Reparador PC.</li>
+    <li><strong>Software: </strong>Java, .net 2017, python.</li>
+  <li><strong>Marketing: </strong>redes sociales.</li>
+  <li><strong>Diseño Grafico: </strong>Photoshop, illustrator.</li>
+  
+  </ul>
+</div>
+
+
+
+  
+  <div class="caja" id="educacion">
+   <h2 id="e">Educación</h2>
+<table>
+      <tbody>
+      <tr>
+        <td><strong>Título</strong></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><strong>Entidad</strong></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><strong>Promoción</strong></td>
+      </tr>
+      <tr>
+        <td>Desarrollo web</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>JAP</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>En proceso</td>
+      </tr>
+      <tr>
+        <td>EMT INFORMATICA</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>ITS/UTU</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>2020</td>
+      </tr>
+      <tr>
+        <td>Educarte Pando</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>Diseño Grafico</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>2012</td>
+      </tr>
+      <tr>
+        <td>Educarte Pando</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>Reparación PC</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>2013</td>
+      </tr>
+      <tr>
+        <td>Educarte Pando</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>Redes</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>2014</td>
+      </tr>
+      <tr>
+        <td>Universidad de chile(Coursera)</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>Python: desde cero.</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>2020</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+  
+
+  <div class="caja" id="perfiles_s">
+  <h2 id="ps">Perfiles sociales.  </h2>
+      <p>También puede encontrarme en:</p>
+      <ul>
+        <li><a href="https://jovenesaprogramar.schoology.com/user/91984529/info">NicolásGarcía</a></li>
+        <li><a href="https://github.com/reptilcuantico99">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/nicol%C3%A1s-garc%C3%ADa-88b1361b3/">Linkedin</a></li>
+      </ul>
+   
+    </div>
+  </section>
+  
+    </body>
+
+
+</html>
