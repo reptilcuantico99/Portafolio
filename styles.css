@@ -1,0 +1,57 @@
+
+
+.main{
+ padding:1em;
+}
+.imagen{
+    padding:1em;
+    width: 485px;
+    height: 250px;
+  
+     border: indigo
+     1px solid;
+}
+
+.separadores{
+    color:white;
+}
+#nombre{
+    font-size:3em;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 15px;
+    text-align:center;
+    color:indigo;
+    /*dotted proviene de puntuada(linea en puntos).*/
+    border: black 5px dotted;
+    
+    
+}
+#descripcion_principal{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+*{
+    background-color:khaki;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0px;
+    padding:0px;
+    
+}
+
+
+.informacion_primaria{
+    padding:6em;
+    margin:3em;
+}
+
+.caja{
+
+    padding:1em;
+    margin:1em;
+    float:left;
+    color:black;
+    width: 450px;
+    height: 170px;
+    border: 3px solid  indigo;
+  
+}
+
