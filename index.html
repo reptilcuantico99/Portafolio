@@ -5,30 +5,53 @@
 <head>
     <!--Titulo de la WEB-->
 <title>¡Cv en HTML!</title>
+<link href="styles.css" type="text/css" rel="stylesheet">
+
 </head>
 
 <!--Cuerpo-->
 <body>
-<h1><strong>Nicolás García</strong></h1>
+
+  <section class="main">
+
+    
+ <div class="informacion_primaria">
+
+
+
+ <h1 id="nombre"><strong>Nicolás García</strong></h1>
+
+ <hr class="separadores">
 <!--Info personal-->
-<p>Desde los 4 años me encanta todo lo relacionado con la computación hoy en dia me enfoco en el estudio de la creación de paginas web y tengo conocimientos acerca de base de datos, sistemas operativos(linux,windows,variantes de linux), estuve un año programando en .NET: para un proyecto de estudio. Despues de esa experiencia supe que es algo que me gusta hacer y que me pueden pagar por eso(¡GENIAL!). Soy apasionado por crear diseños que respondan creativamente a lo solicitado y aplicando herramientas como la psicologia de los colores. </p>
+<p id="descripcion_principal">Desde los 4 años me encanta todo lo relacionado con la computación
+   hoy en dia me enfoco en el estudio de la creación de paginas web y tengo conocimientos 
+   acerca de base de datos, sistemas operativos(linux,windows,variantes de linux), estuve un año 
+   programando en .NET: para un proyecto de estudio.Antes de .NET programe 1 año en un proyecto JAVA(usaba eclipse) supe que es algo que me 
+   gusta hacer y que me pueden pagar por eso(¡GENIAL!). Soy apasionado por crear diseños que respondan creativamente a
+    lo solicitado. </p>
+
+    <div>
+<hr class="separadores">
+
+
+<!--Imagenes de la web-->
+<div class="galeria_de_fotos">
+
+<img class="imagen" src="img1.jpg">
+<img class="imagen" src="img2.jpg">
+
 <hr>
-<ul>
+</div>
 
-    <!--Secciones.-->
-
-   
-    <li><a href="#ep">Experiencia profesional</a></li>
-    <li><a href="#hc">Habilidades y conocimientos</a></li>
-    <li><a href="#e">Educación</a></li>
-    <li><a href="#ps">Perfiles sociales</a></li>
-    <li><a href="#c">Contactar</a></li>
-  </ul>
+<div class="caja" id="experiencia">
 
  <h2 id="ep">Experiencía profesional</h2>
 <!--Primer ejemplo de tabla: cada <tr> Actua directamente en la linea horizontal de las filas de arriba hacia 
   abajo. Los <td> son cada uno de los espacios en horizontal. de izquierda a derecha.-->
-<table>
+
+
+ 
+    <table>
   
   <tbody>
     <tr>
@@ -63,10 +86,9 @@
  
 
 
- 
+</div>
 
-
-   <hr>
+<div class="caja" id="habilidades_conocimientos">
 
    <h2 id="hc">Habilidades y conocimientos</h2>
    <ul>
@@ -77,12 +99,15 @@
   <li><strong>Diseño Grafico: </strong>Photoshop, illustrator.</li>
   
   </ul>
+</div>
+
+
+
   
-  <hr>
-<h2 id="e">Educación</h2>
+  <div class="caja" id="educacion">
+   <h2 id="e">Educación</h2>
 <table>
-  
-    <tbody>
+      <tbody>
       <tr>
         <td><strong>Título</strong></td>
         <td>&nbsp;</td>
@@ -149,16 +174,23 @@
     </tbody>
   </table>
 
-  <hr>
+</div>
+
+
+  
+
+  <div class="caja" id="perfiles_s">
   <h2 id="ps">Perfiles sociales.  </h2>
       <p>También puede encontrarme en:</p>
       <ul>
-        <li><a href="">NicolásGarcía</a></li>
-        <li><a href="">GitHub</a></li>
-        <li><a href="">Twitter</a></li>
-        <li><a href="">Linkedin</a></li>
+        <li><a href="https://jovenesaprogramar.schoology.com/user/91984529/info">NicolásGarcía</a></li>
+        <li><a href="https://github.com/reptilcuantico99">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/nicol%C3%A1s-garc%C3%ADa-88b1361b3/">Linkedin</a></li>
       </ul>
-    
+   
+    </div>
+  </section>
+  
     </body>
 
 
